@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../js/login.js"></script>
+
+    <!--BootStrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/forms.css" type="text/css">
+    <title>EKachra</title>
+</head>
+
+<body>
+    <form class="container logForm">
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="logEmail" aria-describedby="emailHelp"
+                placeholder="Enter email...">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="logPassword" placeholder="Enter Password...">
+        </div>
+        <button class="btn btn-primary" id="logSubmit">Submit</button>
+    </form>
+    <div class="container">
+        <small class="text-muted">Already have an Account?<a href="./register.html"> REGISTER</a></small>
+    </div>
+    <div id="logError"></div>
+</body>
+
+</html>
